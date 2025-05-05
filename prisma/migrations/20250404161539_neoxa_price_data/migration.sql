@@ -1,0 +1,14 @@
+-- CreateTable
+CREATE TABLE "NeoxaPriceData" (
+    "id" TEXT NOT NULL,
+    "marketCap" DOUBLE PRECISION NOT NULL,
+    "price" DOUBLE PRECISION NOT NULL,
+    "volume24h" DOUBLE PRECISION NOT NULL,
+    "circulationSupply" DOUBLE PRECISION NOT NULL,
+    "totalSupply" DOUBLE PRECISION NOT NULL,
+    "timestamp" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" TIMESTAMP(3) NOT NULL,
+
+    CONSTRAINT "NeoxaPriceData_pkey" PRIMARY KEY ("id")
+);
