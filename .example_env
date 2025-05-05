@@ -1,0 +1,8 @@
+# My VPS database
+DATABASE_URL="postgresql://postgres:postgres2025@localhost:5432/nodexa"
+
+# JWT
+JWT_SECRET="b2cccbba183af08e45a124de93508150ee3a049d0209056bbe88fdb3abbdbe0fb0edaca7956c4b5f8d48e11681f4ede70ee01e85ca0a7e605dab58e6d5db22e1"
+
+COINMARKETCAP_API_KEY="8da1c6b2-b484-440d-88f6-f37ee9c5bce1"
+COINMARKETCAP_API_KEY_CHARTS="14b41465-7e7a-4358-81d1-c0e121e69400"
